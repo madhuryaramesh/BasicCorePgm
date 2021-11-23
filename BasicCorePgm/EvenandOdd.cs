@@ -8,10 +8,10 @@ namespace BasicCorePgm
     {
         public void EvenOdd()
         {
-            int i;
+            int n;
             Console.Write("ENTER THE NUMBER : ");
-            i = int.Parse(Console.ReadLine());
-            if (i % 2 == 0)
+            n = int.Parse(Console.ReadLine());
+            if (n % 2 == 0)
             {
                 Console.Write("Number is an Even Number");
                 Console.Read();
