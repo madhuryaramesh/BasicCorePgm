@@ -26,17 +26,16 @@ namespace BasicCorePgm
             Console.WriteLine("-----------------------");
 
             //UC3
-            
             //POWER OF 2
-            //Console.WriteLine("POWER OF TWO");
-            //Console.WriteLine("-----------------------");
-            //PowerofTwo3 powerofTwo3 = new PowerofTwo3();
-            //powerofTwo3.Powo21();
-            //Console.WriteLine("-----------------------");
+            Console.WriteLine("POWER OF TWO");
+            Console.WriteLine("-----------------------");
+            PowerofTwo3 powerofTwo3 = new PowerofTwo3();
+            powerofTwo3.Powo21();
+            Console.WriteLine("-----------------------");
 
             //UC4
             //HARMONIC SERIES
-            Console.WriteLine("Harmoic Series");
+            Console.WriteLine("HARMONIC SERIES");
             Console.WriteLine("-----------------------");
             Harmonic4 harmonic4 = new Harmonic4();
             harmonic4.Harmonic();
@@ -44,11 +43,11 @@ namespace BasicCorePgm
 
             //UC5
             //PRIME FACTORIZATION
-            //Console.WriteLine("Harmoic Series");
-            //Console.WriteLine("-----------------------");
-            //PrimeFact primeFact = new PrimeFact();
-            //primeFact.PrimeF();
-            //Console.WriteLine("-----------------------");
+            Console.WriteLine("FACTORS");
+            Console.WriteLine("-----------------------");
+            PrimeFact primeFact = new PrimeFact();
+            primeFact.PrimeF();
+            Console.WriteLine("-----------------------");
 
             //UC6
             //QUOTIENT AND REMAINDER
